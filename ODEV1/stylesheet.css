@@ -1,0 +1,37 @@
+body {
+    background-color: darkred;
+}
+
+.center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.center-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.ft-size40 {
+    font-size: 40px;
+}
+.ft-size45{
+    font-size: 45px;
+}
+.ft-size61 {
+    font-size: 61px;
+}
+
+.color-blue{
+    color: dodgerblue;
+}
+
+.left{
+    width: 10; float: left;
+}
+
+.dancing-script{    
+font-family: 'Dancing Script', cursive;
+}
