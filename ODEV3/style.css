@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* navbar starts */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+nav a.topimage {
+    width: 96px;
+    height: 36px;
+    background: #1a73e8;
+    border-radius: 4px;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+nav a.toplink {
+    padding-top: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,.87);
+}
+
+/* main starts */
+
+main {
+    margin-top: 220px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#search , #voice {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    left: 33.6%;
+}
+
+#voice {
+    right: 33.6%;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 584px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(224, 219, 219, 0.933)
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px #d6dadf;
+}
+
+#buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    box-shadow: 0 0 2px 1px rgb(184, 178, 178);
+}
+
+.button {
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0px 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+#links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main a {
+    color: blue;
+}
+
+/* footer starts */
+footer {
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h4 {
+    color: #70757a;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: arial,sans-serif;
+    padding: 0px 30px;
+}
+
+hr {
+    height: 1px; background-color: #d1c6c6; border: none;
+}
+
+footer a {
+    color: #70757a;
+    padding: 15px;
+    font-weight: 300;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+.links {
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.link-1 {
+    float: left;
+}
+
+.link-2 {
+    float: right;
+}
+
